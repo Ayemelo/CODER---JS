@@ -24,16 +24,16 @@ while(sigueJugando === true)
 function chequearLetra(letra){
     if (letra == letra1) {
         letra1Adivinada = true
-        alert("Letra 1 advinidada!")
+        alert("Letra 1 adivinada!")
     }else if(letra == letra2){
         letra2Adivinada = true
-        alert("Letra 2 advinidada!")
+        alert("Letra 2 adivinada!")
     }else if(letra == letra3){
         letra3Adivinada = true
-        alert("Letra 3 advinidada!")
+        alert("Letra 3 adivinada!")
     }else if(letra == letra4){
         letra4Adivinada = true
-        alert("Letra 4 advinidada!")
+        alert("Letra 4 adivinada!")
     }else{
         alert("Esa letra no existe en la palabra!")
     }
